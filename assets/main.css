@@ -1,0 +1,38 @@
+.spinner
+{
+    margin: 0 auto;
+}
+
+.result-wrap
+{
+    min-height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.result-area
+{
+    word-break: break-word;
+    font-size: 5em;
+}
+
+.data-area
+{
+    border:solid rgb(226, 226, 226);
+    color: gray;
+    margin: var(--universal-margin);
+}
+
+.data-area:empty:before
+{
+    content: attr(placeholder);
+}
+
+.settings
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

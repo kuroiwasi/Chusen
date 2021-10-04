@@ -13,29 +13,29 @@
             <a href="#" class="logo">Chusen</a>
         </header>
         <div class="container">
-            <div class="card fluid">
+            <div class="fluid">
                 <h2>Result :</h2>
                 <div class="section">
                     <div class="row">
                         <div class="col-sm" >
-                            <div class="result-wrap">
+                            <div class="result-wrap neumorphism-inset">
                                 <span class="result-area" id="result"></span>
                             </div>
                             <div class="button-group">
-                                <button class='primary' onclick="Next();">Next</button>
-                                <button onclick="Clear();">Clear</button>
+                                <button class='neumorphism' onclick="Next();"><span class="primary-button">Next</span></button>
+                                <button class='neumorphism' onclick="Clear();"><span>Clear</span></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card fluid">
+            <div class="fluid">
                 <h2>Dataset :</h2>
                 <div class="section">
                     <div class="row">
                         <div class="col-sm" >
                             <div class="button-group" id="datasetButtonGroup"></div>
-                            <div class="data-area" id="data" contenteditable="true" placeholder="e.g. foo,bar,baz,..."></div>
+                            <div class="data-area neumorphism-inset" id="data" contenteditable="true" placeholder="e.g. foo,bar,baz,..."></div>
                         </div>
                     </div>
                     <div class="row responsive-label">
@@ -45,7 +45,7 @@
                         </div>
                         <div class='col-sm'>
                             <label for="waitingTime">Waiting time</label>
-                            <input type="number" id="waitingTime" name="waitingTime" min="0" value="350">ms
+                            <input class="neumorphism-inset" type="number" id="waitingTime" name="waitingTime" min="0" value="350">ms
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,55 @@
+h2
+{
+    color: #323232;
+    text-shadow: .05rem .05rem .1rem #dddddd, -.05rem -.05rem .1rem #ffffff;
+}
+
+.button-group,
+.button-group> button,
+.button-group>:not(:first-child)
+{
+    border: none;
+}
+
+.button-group>button
+{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow:  .5rem .5rem .4rem #dddddd, -.5rem -.5rem .4rem #ffffff;
+}
+
+.button-group>button:not(.primary)
+{
+    background-color: var(--header-back-color);
+}
+
+.button-group>button:hover:not(.primary)
+{
+    background-color: var(--button-hover-back-color);
+}
+
+.primary-button
+{
+    color: #274975;
+    display: block;
+    border-radius: 7px;
+    background-color: #dfedff;
+    transition: inherit;
+}
+
+.button-group>button:hover>.primary-button
+{
+    background-color: #b7d3f8;
+}
+
+header
+{
+    border:none;
+    box-shadow: 0 .5rem .5rem 0 #dddddd;
+    margin-bottom: 2rem;
+}
+
 .spinner
 {
     margin: 0 auto;
@@ -35,4 +87,22 @@
     display: flex;
     align-items: center;
     justify-content: start;
+}
+
+.neumorphism
+{
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 14px;
+    box-shadow:  .5rem .5rem .4rem #dddddd, -.5rem -.5rem .4rem #ffffff;
+}
+
+.neumorphism-inset
+{
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 14px;
+    box-shadow: inset .5rem .5rem .4rem #dddddd, inset -.5rem -.5rem .4rem #ffffff;
 }
